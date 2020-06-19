@@ -10,5 +10,4 @@ IF zcl_sm_job_runtime=>get_instance( )->is_job_running( ).
   MESSAGE e001(00) WITH |Job { ls_rt_info-jobname } is running|.
 ELSE.
   WAIT UP TO 100 SECONDS.
-  MESSAGE i001(00) WITH `Job is finished`.
 ENDIF.
