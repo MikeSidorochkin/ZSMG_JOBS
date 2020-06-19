@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_SM_JOB_RUNTIME</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Background job runtime</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SM_JOB_RUNTIME</CLSNAME>
+     <CMPNAME>GO_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Background job runtime</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SM_JOB_RUNTIME</CLSNAME>
+     <CMPNAME>MS_RUNTIME_INFO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Run-time information on batch job</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SM_JOB_RUNTIME</CLSNAME>
+     <CMPNAME>TS_JOB_RUNTIME_INFO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Job runtime info</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
